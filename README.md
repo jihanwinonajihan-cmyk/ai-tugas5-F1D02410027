@@ -153,8 +153,8 @@ Kesimpulan: tidak ada kesimpulan yang dapat ditarik dari fakta tersebut
 
 ## 6. Batas keberlakuan
 
-Pengetahuan dalam program ini berasal dari buku saku Kementerian Pertanian dan dua artikel jurnal universitas tentang hama dan penyakit cabai di Indonesia. Aturan hanya berlaku untuk tanaman cabai dan hanya mencakup layu fusarium, layu bakteri, antraknosa, serangan thrips, serangan kutu kebul, dan penyakit virus keriting, tanpa membahas hama atau penyakit lain, tahap pertumbuhan, varietas, atau kondisi cuaca. Gejala yang mirip bisa berasal dari penyebab lain, misalnya kekurangan unsur hara. Hasilnya berupa saran awal, bukan keputusan akhir: petani sebaiknya mengonfirmasi dengan penyuluh pertanian atau petugas pengamat hama dan penyakit sebelum mengambil tindakan. Pernyataan ini juga ditampilkan oleh program pada setiap keluaran (bagian "Catatan").
+Pengetahuan dalam program ini berasal dari buku saku Kementerian Pertanian dan dua artikel jurnal universitas tentang hama dan penyakit cabai di Indonesia. Aturan hanya berlaku untuk tanaman cabai dan hanya mencakup layu fusarium, layu bakteri, antraknosa, serangan thrips, serangan kutu kebul, dan penyakit virus keriting, tanpa membahas hama atau penyakit lain, tahap pertumbuhan, varietas, atau kondisi cuaca. Gejala yang mirip bisa berasal dari penyebab lain, misalnya kekurangan unsur hara. Hasilnya berupa saran awal, bukan keputusan akhir: petani sebaiknya mengonfirmasi dengan penyuluh pertanian atau petugas pengamat hama dan penyakit sebelum mengambil tindakan. 
 
 ## 7. Penggunaan alat bantu AI
 
-Saya menggunakan Claude (Anthropic) untuk membantu mencari kandidat sumber, menyusun draf aturan IF-THEN, dan menulis draf kode `main.py`. Sumber saya buka dan periksa sendiri, aturan saya sesuaikan dengan isi sumber, dan saya memahami serta dapat menjelaskan aturan dan kode.
+Saya menggunakan Claude (Anthropic) untuk membantu mencari kandidat sumber, menyusun draf aturan IF-THEN. Sumber saya buka dan periksa sendiri, aturan saya sesuaikan dengan isi sumber, dan saya memahami serta dapat menjelaskan aturan dan kode.
