@@ -1,0 +1,19 @@
+{
+  "judul": "Diagnosis hama dan penyakit tanaman cabai",
+  "batas": "Aturan berasal dari buku saku hama dan penyakit cabai Kementerian Pertanian, artikel JEEEU Universitas Muhammadiyah Sidoarjo, dan artikel Filogeni UIN Alauddin Makassar. Berlaku untuk tanaman cabai di Indonesia dan hanya mencakup layu fusarium, layu bakteri, antraknosa, serangan thrips, serangan kutu kebul, dan penyakit virus keriting. Hasilnya saran awal, bukan keputusan akhir; konfirmasikan dengan penyuluh pertanian atau petugas pengamat hama dan penyakit.",
+  "sumber": {
+    "S1": "Buku saku hama dan penyakit tanaman cabai, Kementerian Pertanian, https://repository.pertanian.go.id/bitstream/handle/123456789/10254/14bookcabe.pdf, diakses 13 Nov 2026",
+    "S2": "Sistem deteksi penyakit tanaman cabai rawit, JEEEU, Universitas Muhammadiyah Sidoarjo, https://jeeeu.umsida.ac.id/index.php/jeeeu/article/view/317/437, diakses 13 Nov 2026",
+    "S3": "Inaya dkk., Identifikasi morfologi penyakit pada tanaman cabai, Filogeni, UIN Alauddin Makassar, 2022, https://journal3.uin-alauddin.ac.id/index.php/filogeni/article/download/27092/14747, diakses 13 Nov 2026"
+  },
+  "kesimpulan": ["layu fusarium", "layu bakteri", "antraknosa", "serangan thrips", "serangan kutu kebul", "penyakit virus keriting"],
+  "aturan": [
+    {"id": "R1", "jika": ["tanaman layu di siang hari", "tanaman segar kembali di sore hari"], "mode": "dan", "maka": "layu fusarium", "sumber": "S2"},
+    {"id": "R2", "jika": ["tanaman layu di siang hari", "layu berkembang cepat"], "mode": "dan", "maka": "layu bakteri", "sumber": "S2"},
+    {"id": "R3", "jika": ["bercak coklat kehitaman oval pada buah"], "mode": "dan", "maka": "antraknosa", "sumber": "S2, S3"},
+    {"id": "R4", "jika": ["bercak keperakan pada daun muda"], "mode": "dan", "maka": "serangan thrips", "sumber": "S1"},
+    {"id": "R5", "jika": ["bercak nekrotik pada daun"], "mode": "dan", "maka": "serangan kutu kebul", "sumber": "S1"},
+    {"id": "R6", "jika": ["serangan thrips", "serangan kutu kebul"], "mode": "atau", "maka": "vektor virus gemini ada", "sumber": "S1, S2"},
+    {"id": "R7", "jika": ["vektor virus gemini ada", "daun keriting"], "mode": "dan", "maka": "penyakit virus keriting", "sumber": "S2"}
+  ]
+}
