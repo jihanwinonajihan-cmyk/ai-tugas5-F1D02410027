@@ -33,9 +33,9 @@ python uji.py           # menjalankan semua kasus uji otomatis
 
 | Kode | Judul | Penerbit | URL | Tanggal akses |
 | :-- | :-- | :-- | :-- | :-- |
-| S1 | [ISI JUDUL LENGKAP] Buku saku hama dan penyakit tanaman cabai | Kementerian Pertanian | https://repository.pertanian.go.id/bitstream/handle/123456789/10254/14bookcabe.pdf | [ISI TANGGAL] |
-| S2 | [ISI JUDUL LENGKAP] Sistem deteksi penyakit tanaman cabai rawit | JEEEU, Universitas Muhammadiyah Sidoarjo | https://jeeeu.umsida.ac.id/index.php/jeeeu/article/view/317/437 | [ISI TANGGAL] |
-| S3 | [ISI JUDUL LENGKAP] Identifikasi morfologi penyakit pada tanaman cabai (Inaya dkk., 2022) | Filogeni, UIN Alauddin Makassar | https://journal3.uin-alauddin.ac.id/index.php/filogeni/article/download/27092/14747 | [ISI TANGGAL] |
+| S1 | Buku saku hama dan penyakit tanaman cabai | Kementerian Pertanian | https://repository.pertanian.go.id/bitstream/handle/123456789/10254/14bookcabe.pdf | 11 November 2026 |
+| S2 | Sistem deteksi penyakit tanaman cabai rawit | JEEEU, Universitas Muhammadiyah Sidoarjo | https://jeeeu.umsida.ac.id/index.php/jeeeu/article/view/317/437 | 11 November 2026 |
+| S3 | Identifikasi morfologi penyakit pada tanaman cabai (Inaya dkk., 2022) | Filogeni, UIN Alauddin Makassar | https://journal3.uin-alauddin.ac.id/index.php/filogeni/article/download/27092/14747 | 11 November 2026 |
 
 Yang diambil dari tiap sumber:
 
